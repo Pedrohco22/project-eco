@@ -1,0 +1,44 @@
+.aside-bottom {
+  margin: 0;
+  padding: 0;
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.aside-bottom .content {
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  width: 100%;
+  gap: 2rem;
+}
+
+.see-btn {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.see-btn span {
+  display: flex;
+  align-items: center;
+}
+
+.aside-bottom .content .left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 50%;
+}
+
+.aside-bottom .content .right-side img {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+}
