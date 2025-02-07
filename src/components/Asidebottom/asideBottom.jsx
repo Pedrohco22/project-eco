@@ -25,7 +25,7 @@ export class Asidebottom extends React.Component {
             </a>
           </div>
           <div className="right-side">
-            <img src="/public/images/exclusive.png" alt="Smart Band 4" />
+            <img src="/images/exclusive.png" alt="Smart Band 4" />
           </div>
         </div>
       </div>

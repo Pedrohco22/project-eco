@@ -15,7 +15,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch("/public/db.json")
+    fetch("/db.json")
       .then((res) => res.json())
       .then((data) => this.setState({ products: data.products }));
   }

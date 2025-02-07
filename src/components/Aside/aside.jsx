@@ -18,7 +18,7 @@ export class Aside extends React.Component {
             </a>
           </div>
           <div className="right-side">
-            <img src="/public/images/header-image.png" alt="products"></img>
+            <img src="/images/header-image.png" alt="products" />
           </div>
         </div>
       </aside>
